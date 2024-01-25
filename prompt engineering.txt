@@ -1,0 +1,4 @@
+Given the topic [TOPIC], create a roundtable debate of different personas to show key perspectives on the issue. Output the personas as a list of JSON objects. Each JSON object should have the following structure: {{"name": <Name of the Persona>, "stance":<belief stance towards the topic (support/ deny/ neutral)>, "highlight":<2-4words of the highlight of their belief> "description": <Brief Description of the Persona>}}. Ensure that the output is formatted as a valid JSON. Please generate exactly [NUM_PERSONAS] personas.
+
+topic: : Can alternative energy effectively replace fossil fuels?
+num_personas = 9
